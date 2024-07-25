@@ -144,7 +144,7 @@ function ThreadCard({
         </div>
       )}
 
-      {!isComment && (
+      {!isComment && community && (
         <Link
           href={`/communities/${community.id}`}
           className='mt-5 flex items-center'
